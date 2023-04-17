@@ -1,0 +1,76 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Futura, sans-serif;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+nav a {
+	color: white;
+	margin: 0 1rem;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.producto {
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin: 1rem;
+	padding: 1rem;
+	width: 300px;
+}
+
+.producto img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.producto h3 {
+	font-size: 1.5rem;
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.producto p {
+	margin: 1rem 0;
+}
+
+.precio {
+	font-size: 2rem;
+	font-weight: bold;
+	margin: 1rem 0;
+	text-align: center;
+}
+
+button {
+	background-color: black;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font-size: 1rem;
+	margin: 1rem auto 0;
+	padding: 0.5rem 1rem;
+	text-transform: uppercase;
+}

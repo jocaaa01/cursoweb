@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Futura, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  
+  main {
+    display: flex;
+    gap: 2em;
+    padding: 2em;
+  }
+  
+  .producto {
+    background-color: #222;
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    flex-basis: calc(100% / 5 - 2em);
+  }
+  
+  .producto img {
+    max-width: 100%;
+  }
+  
+  .producto h3 {
+    margin-top: 0;
+  }
+  
+  .producto p {
+    margin: 0.5em 0;
+  }
+  
+  .producto button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+
+
+
+

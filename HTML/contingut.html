@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pràctica 1</title>
+    <script src="../JS/comportament.js"></script>
+</head>
+
+<body>
+    <h1 id="Titol" onclick="cambiaColor()">H1 Examen pràctic sobre JavaScript</h1>
+
+    <p id="paragraf" onmouseover="cambiatamano()">Paràgraf 1 En aquest document afegirem el codi necessari per realitzar tot de comportaments en el
+        present document HTML </p>
+        
+    <p id="canvia"
+    button onmouseover="cambiarContenido()" >Recordeu la utilització del entre cometes planes " " , de cada escriptura de sintaxi a JavaScript
+        correctament i els típics errors al escriure paraules en majúscules o minúscules</p>
+
+    <button type="button">Fes clic aquí</button>
+    <script>
+        var elemento = document.getElementById("canvia");
+        elemento.innerHTML = "Paràgraf canviat";
+    </script>
+</body>
+
+</html>

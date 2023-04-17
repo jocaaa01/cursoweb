@@ -1,0 +1,28 @@
+h1::before {
+    content: "Prefijo" ;
+    background-color: rgb(74, 0, 248);
+}
+h2::before {
+    content: "Prefijo" ;
+    background-color: rgb(23, 213, 247);
+}
+h3::after {
+    content: "Sufijo" ;
+    background-color: rgb(228, 194, 4);
+}
+p::first-letter{
+    font-size: 50px;
+    color: rgb(0, 81, 255);
+}
+#primerp::first-line {
+    font-family: 'Courier New', Courier, monospace,;
+    font-style: italic;
+}
+::marker {
+    color: rgb(255, 230, 0); 
+    font-size: 23px;
+}
+#div1 *::selection {
+    color: rgb(0, 4, 255);
+    background: yellow;
+}

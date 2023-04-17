@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Futura, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    gap: 1em;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  nav a:hover {
+    background-color: #444;
+  }
+  
+  main {
+    padding: 2em;
+  }
+  
+  form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1em;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 0.5em;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 0.25em white;
+  }
+  
+  button[type="submit"] {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ddd;
+  }
